@@ -1,0 +1,24 @@
+.signin-box{
+    margin: auto;
+    width: 300px;
+    margin-bottom: 1em;
+}
+
+.signin-box > input{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.signin-box > button{
+    margin-top: 0.5em;
+    width: 50%;
+    padding: 8px;
+    margin-left: 5em;
+    color: white;
+    background-color:rgb(65, 79, 130) ;
+    border-radius: 5px;
+    font-weight: bold;
+}

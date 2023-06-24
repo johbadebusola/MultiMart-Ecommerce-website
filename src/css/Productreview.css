@@ -1,0 +1,91 @@
+.Productreview > .grid1 > img {
+  width: 100%;
+}
+
+.Productreview > .grid2 {
+  padding: 1em;
+  font-family: "Source Serif Pro", serif;
+}
+
+.Productreview > .grid2 > .price {
+  margin-top: -1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.Productreview > .grid2 > .price > h4 {
+  font-size: 1.2em;
+}
+
+.Productreview > .grid2 > .price > p {
+  color: gray;
+  font-weight: 400;
+}
+
+.Productreview > .grid2 > .p1 {
+  margin-top: -0.5em;
+}
+
+.Productreview > .grid2 > .p3 {
+  color: gray;
+  margin-top: -0.5em;
+  line-height: 1.5;
+}
+
+.Productreview > .grid2 > button {
+  padding: 8px 15px;
+  font-size: 1em;
+  background-color: rgb(65, 79, 130);
+  color: white;
+  border-radius: 6px;
+  font-family: "sans-serif";
+  font-weight: bold;
+}
+
+.Productreview > .grid2 > .p1 > span {
+  color: orangered;
+}
+
+.product-view-banner {
+  background-color: #a3b8d6;
+  margin-top: -1em;
+  text-align: center;
+  padding: 2em;
+  color: white;
+}
+
+.product-view-banner > h3 {
+  text-align: center;
+}
+
+@media (min-width:812px){
+    .Productreview , .newProduct {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+   
+        
+      }
+
+
+@media (min-width: 1000px) {
+  .Productreview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+  }
+  .Productreview > .grid1 > img {
+    width: 100%;
+    height: 80%;
+  }
+  .Productreview > .grid2 {
+
+    width: 70%;
+  }
+  .newProduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

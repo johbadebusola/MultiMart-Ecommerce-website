@@ -1,0 +1,48 @@
+.footer-container{
+    padding: 1em;
+    background-color: rgb(65, 79, 130);
+    color: white;
+}
+
+.footer-container > .grid1 > p{
+    font-size: 1.1em;
+    width: 80%;
+    color: rgb(154, 164, 201)
+}
+
+.footer-container > .grid2 > p{
+    color: rgb(154, 164, 201);
+}
+
+.footer-container > .grid3 > p{
+    color: rgb(154, 164, 201);
+    
+}
+
+.footer-container > .grid3 > p a{
+    color: rgb(154, 164, 201);
+    
+}
+
+.footer-container > .grid4> p{
+    color: rgb(154, 164, 201);
+}
+
+@media (min-width:1000px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 3em;
+        padding-right: 5em;
+       
+        justify-content: space-between;
+        
+    }
+
+    .footer-container > .grid1 > p{
+        font-size: 1.1em;
+        width: 90%;
+       
+    }
+}
+

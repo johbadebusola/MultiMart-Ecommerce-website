@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+
+.banner {
+  background-color: #a3b8d6;
+  margin-top: -1em;
+  text-align: center;
+  padding: 2em;
+  color: white;
+}
+
+.products {
+  margin-bottom: 2em;
+  margin: 1em;
+}
+
+.products > .hoverable-img {
+  overflow: hidden;
+  position: relative;
+}
+.products > .hoverable-img > img {
+  width: 100%;
+
+}
+
+.products > .hoverable-img > button {
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  background: #76a7ab;
+  padding: 4px;
+  top: 7em;
+}
+
+
+
+.products > h4 {
+  margin-left: 1em;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.products > .p1 {
+  margin-left: 1em;
+  color: grey;
+}
+
+.products > .p2 {
+  margin-left: 1em;
+  margin-top: -1em;
+  color:gray;
+}
+
+.products > .price-grid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products > .price-grid > h3 {
+  margin-left: 1em;
+  
+}
+
+.filter-search{
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  flex-wrap: wrap;
+
+}
+
+.filter-select {
+  padding: 8px;
+  width: 160px;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  color: white;
+  background-color: rgb(65, 79, 130);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.filter-search > input{
+  margin-top: 1em;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 3px;
+  border: 1px solid silver;
+}
+
+
+.sort{
+  background-color: rgb(65, 79, 130);
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding: 8px;
+  margin-top: 3em;
+}
+
+.no-products-found{
+  margin-top: 1em;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+@media (min-width: 812px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

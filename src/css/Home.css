@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+/* font-family: 'Changa One', cursive; */
+/* font-family: 'Source Serif Pro', serif; */
+
+.container {
+  margin-top: -1em;
+  padding: 1em;
+  background-color: #a3b8d6;
+
+}
+
+.hero-img > img{
+    width: 100%;
+}
+
+.container > .box1 > h3{
+    font-size: 1.5rem;
+    font-family: 'Changa One', cursive;
+    color: rgb(65, 79, 130);
+}
+.container > .box1 > button{
+    padding: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 8px;
+    background-color: rgb(65, 79, 130);
+    color: white;
+    margin-top: 1.5em;
+}
+
+.container > .box1 > .p2 {
+    line-height: 1.8;
+    font-size: 1.03rem;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+.service-container{
+    margin: 1em;
+}
+
+.service-container > div {
+    padding:1em;
+}
+
+.service-container > div  {
+display: flex;
+align-items: center;
+
+}
+
+.service-container > div > div{
+    margin-left: 1em;
+}
+
+.service-container > div > div > p{
+    margin-top: -1em;
+}
+
+.trending-product  {
+    margin-top: 2em;
+  
+}
+
+.trending-product > h4{
+    font-size: larger;
+    margin-bottom: -0.5em;
+}
+
+.trending-product > h4{
+    text-align: center;
+}
+
+
+@media (min-width:812px){
+    .service-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+         }
+         .product-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          }
+}
+
+
+@media (min-width:1000px){
+    .container{
+        display:flex;
+        padding:4em 9em 3em 9em ;
+    }
+
+    .hero-img > img{
+        width: 500px;
+        height: 400px;
+    }
+    .service-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .service-container > div {
+        padding:  0em 1em;
+    }
+    .product-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+}

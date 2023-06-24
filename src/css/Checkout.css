@@ -1,0 +1,61 @@
+.checkout{
+    margin: 1em;
+}
+.checkout > .box1 > input{
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.checkout > .box2{
+    background-color: rgb(65, 79, 130);
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    margin-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.checkout > .box2 > div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: -2em;
+font-weight: bold;
+
+}
+
+.checkout > .box2 > div > h5{
+    font-size: 15px;
+}
+
+hr{
+    margin-top: 1.3em;
+    margin-bottom: -0.6em;
+}
+
+.checkout > .box2 > .checkout-btn{
+    margin: auto;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout > .box2 > .checkout-btn > button{
+    width: 40%;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+ 
+}
+
+
+@media (min-width:1000px){
+.checkout{
+ display: grid;
+ grid-template-columns: 70% 30%;
+}
+}
